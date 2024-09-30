@@ -1,0 +1,646 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: #1e8fff1d;
+}
+
+/* Header */
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   z-index: 5;
+   background-color: #1e90ff;
+}
+
+.navbar {
+   display: flex;
+   padding: 0 10px;
+   max-width: 1200px;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navbar input#menu-toggler {
+   display: none;
+}
+.navbar #hamburger-btn {
+   cursor: pointer;
+   display: none;
+}
+.navbar .all-links {
+   display: flex;
+   align-items: center;
+}
+.navbar .all-links li {
+   position: relative;
+   list-style: none;
+}
+.navbar .logo {
+   display: flex;
+   align-items: center;
+   margin-left: 0;
+   color: white;
+}
+
+header a {
+   margin-left: 40px;
+   font-weight: 600;
+   text-decoration: none;
+   color: white;
+   height: 100%;
+   padding: 20px 0;
+   display: inline-block;
+}
+header a:hover {
+   color: black;
+}
+
+/* HOME */
+.homepage {
+   margin-top: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#slogan {
+   font-size: 40px;
+   font-weight: 600;
+}
+
+#about-npo {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.video-background {
+   margin-top: 25px;
+   margin-bottom: 100px;
+   position: relative;
+   width: 1235px;
+}
+
+#kids-video {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}
+
+.content {
+   position: relative;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   background: rgba(0, 0, 0, 0.502);
+   border-radius: 25px;
+   height: 560px;
+   align-content: center;
+}
+
+.video-background h2,
+.video-background p {
+   margin: 0;
+   padding: 10px;
+}
+
+.about-btn {
+   background-color: transparent;
+   border: solid 1px white;
+   color: white;
+   width: 100px;
+   height: 35px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.about-btn:hover {
+   background-color: dodgerblue;
+   border: none;
+}
+
+.mission-text {
+   width: 300px;
+   text-align: start;
+   margin-bottom: 25px;
+}
+
+.section1 {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 100px;
+   margin-bottom: 100px;
+}
+
+.mission-section,
+.difference-section {
+   flex: 1;
+   max-width: 300px;
+   vertical-align: top;
+}
+
+.mission-section img,
+.difference-section img {
+   display: block;
+   margin-top: 10px;
+}
+
+a {
+   margin-right: 10px;
+}
+
+.two-btns,
+.sub-btn {
+   background-color: dodgerblue;
+   width: 150px;
+   height: 30px;
+   border: none;
+   border-radius: 7px;
+   color: white;
+   margin-bottom: 20px;
+   cursor: pointer;
+   font-weight: 500;
+}
+
+.two-btns:hover {
+   background-color: rgb(3, 66, 129);
+}
+
+.section1 img {
+   border-radius: 20px;
+}
+
+.sub-btn {
+   margin-top: 10px;
+}
+
+.quiz {
+   border: solid 3px dodgerblue;
+   border-radius: 10px;
+   padding: 15px;
+}
+
+.title-section1 {
+   margin-bottom: 45px;
+}
+
+.news-container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.news-section {
+   width: 400px;
+   margin-right: 10px;
+}
+
+.news {
+   border: 1px solid #ccc;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.desc {
+   padding: 15px;
+   text-align: center;
+}
+
+.news-images {
+   margin-top: 15px;
+   border-radius: 20px;
+   width: 348px;
+   height: 400px;
+}
+
+.news-heading {
+   margin-top: 10px;
+}
+
+.partners-brand {
+   width: 60%;
+   margin: 25px auto;
+   padding: 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.partners-brand img {
+   width: 140px;
+   height: 140px;
+   margin: 10px;
+}
+
+.title-section2 {
+   margin-top: 50px;
+}
+
+.newsletter {
+   margin-top: 35px;
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+.subscribe-text {
+   margin-bottom: 15px;
+}
+
+.info-field {
+   width: 300px;
+   height: 35px;
+   border: solid 1px lightgray;
+   border-radius: 10px;
+   padding-left: 10px;
+   margin-bottom: 10px;
+   font-size: 16px;
+}
+
+/* ABOUT */
+.about-page {
+   width: 100%;
+   display: flex;
+   margin-top: 120px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.about-message {
+   width: 450px;
+   margin-bottom: 25px;
+   text-align: center;
+}
+
+.my-profile-image {
+   margin-bottom: 25px;
+   margin-right: 25px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* GALLERY */
+.gallery-page {
+   width: 100%;
+   display: flex;
+   margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-bottom: 200px;
+}
+
+.gallery-page img {
+   width: 250px;
+   margin: 5px;
+   border-radius: 25px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* SHOP */
+.shop-page {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 100px;
+   margin-bottom: 200px;
+}
+
+.product-image {
+   border-radius: 25px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-name {
+   font-weight: 600;
+}
+
+.price {
+   font-weight: 500;
+}
+
+.cart-button {
+   width: 100px;
+   height: 30px;
+   background-color: dodgerblue;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-family: Poppins;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.cart-button:hover {
+   background-color: rgb(26, 110, 194);
+}
+
+.cart-button:active {
+   background-color: rgb(11, 46, 81);
+}
+
+.full-product {
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact-page {
+   width: 100%;
+   display: flex;
+   margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.section-title {
+   font-size: 30px;
+   margin-bottom: 20px;
+   font-weight: 500;
+}
+
+.form-input {
+   width: 700px;
+   height: 35px;
+   margin-bottom: 15px;
+   border-radius: 7px;
+   border: solid 1px lightgray;
+   padding-left: 7px;
+}
+
+#message {
+   height: 150px;
+}
+
+.btn {
+   background-color: dodgerblue;
+   width: 150px;
+   height: 30px;
+   border: none;
+   border-radius: 7px;
+   color: white;
+   font-weight: 500;
+   font-size: 15px;
+   cursor: pointer;
+   margin-bottom: 35px;
+}
+
+.btn:hover {
+   background-color: rgb(26, 110, 194);
+}
+
+.contact-details {
+   margin-top: 30px;
+}
+
+.contact-details-icon {
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+}
+
+.contact-details-text {
+   text-decoration: none;
+   color: black;
+   font-weight: 500;
+   font-size: 15px;
+}
+
+.contact-details-icon,
+.contact-details-text {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+/* DONATE */
+.donate-page {
+   width: 100%;
+   display: flex;
+   margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.donation-message {
+   text-align: left;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   font-size: 25px;
+   font-weight: 500;
+}
+
+.message {
+   height: 150px;
+   width: 700px;
+   margin-bottom: 15px;
+   border-radius: 7px;
+   border: solid 1px lightgray;
+   padding-left: 7px;
+}
+
+/* GET INVOLVED */
+.get-involved-page {
+   width: 100%;
+   display: flex;
+   margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.info-sections {
+   width: 700px;
+   border-radius: 10px;
+   padding: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-bottom: 15px;
+}
+
+.btns {
+   margin-top: 10px;
+   background-color: dodgerblue;
+   width: 150px;
+   height: 30px;
+   border: none;
+   border-radius: 7px;
+   color: white;
+   font-weight: 500;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+.btns:hover {
+   background-color: rgb(26, 110, 194);
+}
+
+.invole-message {
+   margin-top: 15px;
+   margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+   margin-top: 30px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background: dodgerblue;
+   padding: 20px 0;
+}
+footer .copyright-info {
+   padding: 0 10px;
+   max-width: 1200px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+footer div span {
+   color: #fff;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 860px) {
+   .navbar .all-links {
+      position: fixed;
+      right: -100%;
+      width: 300px;
+      display: block;
+      height: 100vh;
+      top: 100px;
+      background: rgb(0, 128, 255);
+      transition: right 0.5s ease;
+   }
+   .navbar #menu-toggler:checked ~ .all-links {
+      right: 0;
+   }
+   .navbar .all-links li {
+      font-size: 18px;
+   }
+
+   .navbar #hamburger-btn {
+      display: block;
+      cursor: pointer;
+   }
+   .shop-page {
+      display: grid;
+      grid-template-columns: 0fr 0fr 0fr;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+   }
+   .donation-message {
+      font-size: 20px;
+   }
+}
+
+@media screen and (max-width: 860px) {
+   .section1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .section1 aside {
+      text-align: center;
+   }
+   .shop-page {
+      display: grid;
+      grid-template-columns: 0fr 0fr 0fr;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+   }
+   .form-input,
+   .message,
+   .info-sections,
+   .about-message {
+      width: 400px;
+   }
+   .maps {
+      width: 400px;
+   }
+   .google-maps {
+      width: 400px;
+   }
+   .partners-brand {
+      display: block;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .shop-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+   }
+   .form-input,
+   .message,
+   .info-sections,
+   .about-message {
+      width: 300px;
+   }
+   .maps {
+      width: 400px;
+   }
+   .google-maps {
+      width: 300px;
+   }
+   .shop-page {
+      display: grid;
+      grid-template-columns: 0fr;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+   }
+}
+
+@media screen and (max-width: 1252px) {
+   .video-background {
+      width: 75%;
+   }
+   .partners-brand {
+      width: 65%;
+   }
+   .partners-brand img {
+      width: 100px;
+      height: 100px;
+   }
+   .shop-page {
+      display: grid;
+      grid-template-columns: 0fr;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+   }
+}

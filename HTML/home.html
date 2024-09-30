@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>myEdu Foundation</title>
+      <link rel="icon" href="/MEDIA/logo_notextbg.png" />
+      <link rel="stylesheet" href="/STYLE/style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer" />
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+            <img
+               class="logo"
+               src="/Media/logo_no_background.png"
+               alt="myEdu Foundation Logo"
+               width="100px" />
+            <input type="checkbox" id="menu-toggler" />
+            <label for="menu-toggler" id="hamburger-icon">
+               <i class="fa-solid fa-bars" style="color: white"></i>
+            </label>
+            <ul class="all-links">
+               <li><a href="/HTML/home.html" target="_blank">Home</a></li>
+               <li><a href="/HTML/about.html" target="_blank">About</a></li>
+               <li><a href="/HTML/gallery.html" target="_blank">Gallery</a></li>
+               <li><a href="/HTML/shop.html" target="_blank">Shop</a></li>
+               <li><a href="/HTML/contact.html" target="_blank">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <section class="homepage">
+         <div class="video-background">
+            <video
+               id="kids-video"
+               src="/Media/kids_walk.mp4"
+               autoplay
+               loop
+               muted></video>
+            <div class="content">
+               <p id="slogan">Build A Better Future.</p>
+               <p id="about-npo">
+                  myEdu Foundation is an
+                  <abbr title="Non Profit Organisation">NPO</abbr> that assists
+                  learners with school-related essentials. We provide them with
+                  necessary school supplies such as clothes, shoes, stationery,
+                  and healthy meals. At myEdu Foundation, our
+                  <strong>mission</strong> is to support students with financial
+                  difficulties.
+               </p>
+               <a href="/HTML/about.html" target="_blank"
+                  ><button class="about-btn">About Us</button></a
+               >
+            </div>
+         </div>
+
+         <div class="section1">
+            <div class="mission-section">
+               <h3>What We Do</h3>
+               <p class="mission-text">
+                  Our mission is to provide vital school supplies to students in
+                  need. Together, we can make a significant difference in the
+                  lives of many children by ensuring they have the tools
+                  necessary for academic success.
+               </p>
+               <img
+                  src="/Media/happy_students.jpg"
+                  alt="Happy Students in a school uniform"
+                  width="250px" />
+            </div>
+
+            <div class="difference-section">
+               <h3>How You Can Make a Difference</h3>
+               <p>
+                  Your support helps us make a huge impact and provide essential
+                  supplies to students in need.
+               </p>
+               <img src="/Media/stationary1.jpeg" alt="" width="250px" />
+               <br />
+               <a href="donate.html" target="_blank"
+                  ><button class="two-btns">Donate</button></a
+               >
+               <a href="get_involved.html" target="_blank"
+                  ><button class="two-btns">Get Involved</button></a
+               >
+            </div>
+
+            <aside>
+               <h3>QUIZ OF THE DAY</h3>
+               <details>
+                  <summary>
+                     Which of the following film is based on Teachers?
+                  </summary>
+                  <br />
+                  <fieldset class="quiz">
+                     <legend>Select only one answer</legend>
+                     <p>
+                        <input type="checkbox" />
+                        <label>Akeelah and the Bee</label>
+                     </p>
+
+                     <p>
+                        <input type="checkbox" />
+                        <label>The Half of it</label>
+                     </p>
+
+                     <p>
+                        <input type="checkbox" />
+                        <label>November Sky</label>
+                     </p>
+
+                     <button
+                        class="sub-btn"
+                        id="submit-btn"
+                        type="submit"
+                        onclick="document.getElementById('submit-btn').innerHTML = 'Submited ✅'">
+                        Submit
+                     </button>
+                  </fieldset>
+               </details>
+            </aside>
+         </div>
+
+         <h2 class="title-section1">Our latest news</h2>
+
+         <div class="news-container">
+            <div class="news-section">
+               <div class="news">
+                  <h3 class="news-heading">
+                     1. School Clothing Collection Drive
+                  </h3>
+                  <img class="news-images" src="/Media/uniform1.jpeg" alt="" />
+                  <div class="desc">
+                     Our recent school uniform drive took place at
+                     <strong>Sunnyside Highschool</strong> &
+                     <strong>Sunnyside Primary</strong> school in Klerksdorp. We
+                     partnered with <strong>MAILE AUTOMATIVES</strong>, they
+                     helped us with the purchase of school clothes and shoes to
+                     support students in need.
+                  </div>
+               </div>
+            </div>
+
+            <div class="news-section">
+               <div class="news">
+                  <h3 class="news-heading">
+                     2. From Friday Meals to DAILY MEALS!!!
+                  </h3>
+                  <img class="news-images" src="/Media/meal2.jpeg" alt="" />
+                  <div class="desc">
+                     We are excited to announce our
+                     <em>new daily meal program,</em> providing healthy meals to
+                     students to support their academic performance and overall
+                     well-being.
+                  </div>
+               </div>
+            </div>
+
+            <div class="news-section">
+               <div class="news">
+                  <h3 class="news-heading">
+                     3. School Supplies Collection Day
+                  </h3>
+                  <img
+                     class="news-images"
+                     src="/Media/stationary_drive.jpeg"
+                     alt="" />
+                  <div class="desc">
+                     Our next supplies collection day will be on the 12th of
+                     September at Sunshine Primary School from 8:00am to
+                     17:00pm.
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <h2 class="title-section2">Our Partners</h2>
+         <div class="partners-brand">
+            <img src="/Media/partner1.png" alt="Angel and Jason Bakery" />
+            <img src="/Media/partner2.png" alt="AJO Food & Drink" />
+            <img src="/Media/partner3.png" alt="Omphile's Bakery" />
+            <img src="/Media/partner4.png" alt="MAILE AUTOMATIVES" />
+            <img src="/Media/partner5.png" alt="HTM Construction" />
+            <br />
+         </div>
+         <a href="contact.html" target="_blank"
+            ><button class="btn">Become a partner</button></a
+         >
+
+         <form class="newsletter">
+            <h2 class="subscribe-text">Subscribe To Our Newsletter</h2>
+            <input
+               type="text"
+               class="info-field"
+               placeholder="Enter your name"
+               required />
+            <input
+               type="email"
+               class="info-field"
+               placeholder="Enter your email address"
+               required />
+            <button class="btn" type="submit">Submit</button>
+         </form>
+
+         <div class="home-contact-details">
+            <h2>Contact details</h2>
+            <img
+               class="contact-details-icon"
+               src="/Media/bxs-envelope.svg"
+               alt="Mail Icon" />
+            <a class="contact-details-text" href="mailto:info@myedu.org.za"
+               >info@myedu.org.za</a
+            ><br />
+
+            <img
+               class="contact-details-icon"
+               src="/Media/bxs-envelope.svg"
+               alt="Mail Icon" />
+            <a class="contact-details-text" href="mailto:angel@myedu.org.za"
+               >angel@myedu.org.za</a
+            >
+            <br />
+
+            <img
+               class="contact-details-icon"
+               src="/Media/bxs-phone.svg"
+               alt="" />
+            <a class="contact-details-text" href="tel:+27615477889"
+               >Phone: +27 61 547 7889</a
+            >
+         </div>
+      </section>
+
+      <footer>
+         <div class="copyright-info">
+            <span
+               >Copyright &copy; 2024 myEdu Foundation. All Rights
+               Reserved.</span
+            >
+         </div>
+      </footer>
+   </body>
+</html>

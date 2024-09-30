@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Shop - myEdu Foundation</title>
+      <link rel="icon" href="/MEDIA/logo_notextbg.png" />
+      <link rel="stylesheet" href="/STYLE/style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer" />
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+            <img
+               class="logo"
+               src="/MEDIA/logo_no_background.png"
+               alt="myEdu Foundation Logo"
+               width="100px" />
+            <input type="checkbox" id="menu-toggler" />
+            <label for="menu-toggler" id="hamburger-icon">
+               <i class="fa-solid fa-bars" style="color: white"></i>
+            </label>
+            <ul class="all-links">
+               <li><a href="/HTML/home.html" target="_blank">Home</a></li>
+               <li><a href="/HTML/about.html" target="_blank">About</a></li>
+               <li><a href="/HTML/gallery.html" target="_blank">Gallery</a></li>
+               <li>
+                  <a
+                     href="/HTML/shop.html"
+                     style="color: rgba(0, 0, 0, 0.381)"
+                     target="_blank"
+                     >Shop</a
+                  >
+               </li>
+               <li><a href="/HTML/contact.html" target="_blank">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <p id="shop-text">
+         All the revenue we get from this shop goes towards supporting students
+         in need, by purchasing a product you are changing a life of a student.
+      </p>
+      <br /><br /><br />
+
+      <section class="shop-page">
+         <figure style="display: inline-block" class="full-product">
+            <img
+               class="product-image"
+               src="/Media/Products/hoodie.avif"
+               alt="Cotton T-shirt"
+               width="200" />
+            <figcaption>
+               <span class="product-name">Classic Pullover Hoodie</span> <br />
+               <span class="price">R125</span> <br />
+               <button
+                  class="cart-button"
+                  id="cart"
+                  onclick="document.getElementById('cart').innerHTML = 'Added ✅'">
+                  Add to cart
+               </button>
+            </figcaption>
+         </figure>
+
+         <figure style="display: inline-block" class="full-product">
+            <img
+               class="product-image"
+               src="/Media/Products/cotton-shirt.avif"
+               alt="Cotton T-shirt"
+               width="200" />
+            <figcaption>
+               <span class="product-name">Cotton T-Shirt</span> <br />
+               <span class="price">R125</span> <br />
+               <button
+                  class="cart-button"
+                  id="cart1"
+                  onclick="document.getElementById('cart1').innerHTML = 'Added ✅'">
+                  Add to cart
+               </button>
+            </figcaption>
+         </figure>
+
+         <figure style="display: inline-block" class="full-product">
+            <img
+               class="product-image"
+               src="/Media/Products/premium-hoodie.avif"
+               alt="Tacos"
+               width="200" />
+            <figcaption>
+               <span class="product-name">Pullover Hoodie</span> <br />
+               <span class="price">R125</span> <br />
+               <button
+                  class="cart-button"
+                  id="cart2"
+                  onclick="document.getElementById('cart2').innerHTML = 'Added ✅'">
+                  Add to cart
+               </button>
+            </figcaption>
+         </figure>
+
+         <figure style="display: inline-block" class="full-product">
+            <img
+               class="product-image"
+               src="/Media/Products/sweatshirt.avif"
+               alt="Tacos"
+               width="200" />
+            <figcaption>
+               <span class="product-name">Classic Crewneck </span> <br />
+               <span class="price">R125</span> <br />
+               <button
+                  class="cart-button"
+                  id="cart3"
+                  onclick="document.getElementById('cart3').innerHTML = 'Added ✅'">
+                  Add to cart
+               </button>
+            </figcaption>
+         </figure>
+
+         <figure style="display: inline-block" class="full-product">
+            <img
+               class="product-image"
+               src="/Media/Products/cut-off-sticker.avif"
+               alt="Tacos"
+               width="200" />
+            <figcaption>
+               <span class="product-name">Cut-Off Sticker</span> <br />
+               <span class="price">R125</span> <br />
+               <button
+                  class="cart-button"
+                  id="cart4"
+                  onclick="document.getElementById('cart4').innerHTML = 'Added ✅'">
+                  Add to cart
+               </button>
+            </figcaption>
+         </figure>
+
+         <figure style="display: inline-block" class="full-product">
+            <img
+               class="product-image"
+               src="/Media/Products/mug.avif"
+               alt="Tacos"
+               width="200" />
+            <figcaption>
+               <span class="product-name">Mug</span> <br />
+               <span class="price">R125</span> <br />
+               <button
+                  class="cart-button"
+                  id="cart5"
+                  onclick="document.getElementById('cart5').innerHTML = 'Added ✅'">
+                  Add to cart
+               </button>
+            </figcaption>
+         </figure>
+      </section>
+
+      <footer>
+         <div class="copyright-info">
+            <span
+               >Copyright &copy; 2024 myEdu Foundation. All Rights
+               Reserved.</span
+            >
+         </div>
+      </footer>
+   </body>
+</html>
